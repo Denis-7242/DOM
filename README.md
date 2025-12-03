@@ -8,7 +8,7 @@ This project demonstrates fundamental concepts of **DOM manipulation** and **eve
 
 ## Project Structure
 
-```plaintext
+```
 DOM/
 ├── index.html
 └── main.js
