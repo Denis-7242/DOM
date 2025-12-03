@@ -142,3 +142,9 @@ Changing the page based on user interaction.
 
 ---
 
+### 💻 Author
+
+Denis Murithi  
+👤 GitHub: [@Denis-7242](https://github.com/Denis-7242)
+
+🗓️ Made with ❤️ by Denis 
