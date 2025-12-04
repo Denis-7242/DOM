@@ -146,5 +146,6 @@ Changing the page based on user interaction.
 
 Denis Murithi  
 👤 GitHub: [@Denis-7242](https://github.com/Denis-7242)
+    mail: [@gmail](dexdenis3@gmail.com) 
 
 🗓️ Made with ❤️ by Denis 
