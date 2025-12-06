@@ -1,4 +1,4 @@
-# DOM Manipulation and Events in JavaScript 
+# DOM Manipulation and Events Handling in JavaScript 
 
 ## Overview
 
