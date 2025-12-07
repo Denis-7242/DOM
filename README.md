@@ -1,4 +1,4 @@
-# DOM Manipulation and Events Handling in JavaScript 
+# DOM Manipulation and Events Handling in JavaScript
 
 ## Overview
 
@@ -16,20 +16,16 @@ DOM/
 
 ### **index.html**
 
-
-
-* Contains a root `<div>` where dynamic JavaScript-generated content will be injected.
-* Loads `main.js`, which performs all DOM manipulation.
+- Contains a root `<div>` where dynamic JavaScript-generated content will be injected.
+- Loads `main.js`, which performs all DOM manipulation.
 
 ### **main.js**
 
-
-
-* Selects the `#root` element.
-* Creates a heading.
-* Dynamically generates color buttons.
-* Adds click event listeners to each button.
-* Updates the text color of the heading based on user interaction.
+- Selects the `#root` element.
+- Creates a heading.
+- Dynamically generates color buttons.
+- Adds click event listeners to each button.
+- Updates the text color of the heading based on user interaction.
 
 ---
 
@@ -40,7 +36,7 @@ DOM/
 The JavaScript file begins by selecting the `root` div:
 
 ```javascript
-const rootDiv = document.getElementById('root');
+const rootDiv = document.getElementById("root");
 ```
 
 This allows all elements to be added dynamically using JavaScript.
@@ -52,7 +48,7 @@ This allows all elements to be added dynamically using JavaScript.
 A heading (`<h1>`) is created and added to the page:
 
 ```javascript
-const heading = document.createElement('h1');
+const heading = document.createElement("h1");
 heading.innerText = "Welcome to Dex'N.com";
 rootDiv.appendChild(heading);
 ```
@@ -64,7 +60,7 @@ rootDiv.appendChild(heading);
 A list of colors is defined:
 
 ```javascript
-const colors = ['red', 'blue', 'green'];
+const colors = ["red", "blue", "green"];
 ```
 
 Each color is used to generate a button:
@@ -84,7 +80,7 @@ Buttons are created using:
 
 ```javascript
 colors.forEach((c) => {
-    renderButtons(c);
+  renderButtons(c);
 });
 ```
 
@@ -96,20 +92,20 @@ Each button listens for a **click event**:
 
 ```javascript
 button.addEventListener("click", () => {
-    heading.style.color = color;
+  heading.style.color = color;
 });
 ```
 
 **What happens when you click a button?**
 
-* The event listener detects the click.
-* The heading's text color changes to match the button’s color.
+- The event listener detects the click.
+- The heading's text color changes to match the button’s color.
 
 This demonstrates:
 
-* Event listeners
-* DOM style manipulation
-* Callback functions
+- Event listeners
+- DOM style manipulation
+- Callback functions
 
 ---
 
@@ -146,8 +142,8 @@ Changing the page based on user interaction.
 
 Denis Murithi  
 👤 GitHub: [@Denis-7242](https://github.com/Denis-7242)
-    mail: [@gmail](dexdenis3@gmail.com) 
+mail: [@gmail](dexdenis3@gmail.com)
 
-🗓️ Made with ❤️ by Denis 
+🗓️ Made with ❤️ by Denis
 
 ---
